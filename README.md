@@ -13,7 +13,7 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 <img align="center" src="https://raw.githubusercontent.com/glmbxecurity/assets/main/eJPT.png" />  
 
 ### Contenido principal  
-- [Reconocimiento]()  
+- [Reconocimiento](https://raw.githubusercontent.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/main/reco.md)  
 - [Explotación]()
 - [Post Explotacion]()
 - [Informes]()
