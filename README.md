@@ -12,13 +12,13 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 
 <img align="center" src="https://raw.githubusercontent.com/glmbxecurity/assets/main/eJPT.png" />
 
-[Reconocimiento]()
-[Explotación]()
-[Post Explotacion]()
-[Buffer Overflow]()  
+- [Reconocimiento]()  
+- [Explotación]()
+- [Post Explotacion]()
+- [Buffer Overflow]()  
 
-[Metasploit]()
-[SQLmap]()
-[Pivoting]()  
+- [Metasploit]()
+- [SQLmap]()
+- [Pivoting]()  
 
-[Informes]()
+- [Informes]()
