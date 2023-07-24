@@ -22,7 +22,8 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 - [Buffer Overflow]()  
 - [Metasploit]()
 - [SQLmap]()
-- [Pivoting]()  
+- [Pivoting]()
+- [Cheatsheet]() 
 
 #### Requisitos previos
 
