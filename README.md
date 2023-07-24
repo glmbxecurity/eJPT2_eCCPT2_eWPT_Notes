@@ -11,7 +11,8 @@ Piensa como si fuera una cheatsheet, con todo lo necesario para que no te dejes 
 un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar cada uno de los ámbitos de los que se componen los examenes a través de máquinas de Hackthebox y similares.
 
 <img align="center" src="https://raw.githubusercontent.com/glmbxecurity/assets/main/eJPT.png" />
-## Contenido principal
+### Contenido principal  
+
 - [Reconocimiento]()  
 - [Explotación]()
 - [Post Explotacion]()
