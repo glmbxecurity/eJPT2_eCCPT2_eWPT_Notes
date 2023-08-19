@@ -1,4 +1,4 @@
-# MyExpense
+![image](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/assets/137443771/2c1910a6-f323-456e-9a50-d83308355f41)# MyExpense
 
 - Máquina de vulnhub, para practicar XSS y SQL Injection  
 - Descarga: <a href="https://www.vulnhub.com/entry/myexpense-1,405/">MyExpense</a>
@@ -68,4 +68,8 @@ Parece que tienen un chat en común, así que aprovecharemos el textbox para hac
 Una vez en el perfil, aceptamos la solicitud.
 <img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups/myexpense/myexpense13.jpg?raw=true">
 
+### SQL Injection
+La solicitud está aceptada pero tiene que ser aprobada por un financial aprover, que el financial aprover de este usuario es: Paul Baudouin.
+En Rennes, vemos lo que parece una consulta a una BBDD, y en la URL también parece indicarlo. probaremos una inyección SQL
+<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups/myexpense/myexpense14.jpg?raw=true">
 
