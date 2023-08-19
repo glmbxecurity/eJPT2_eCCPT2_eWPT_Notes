@@ -1,10 +1,6 @@
-## Máquinas OWASP Top 10
-
-### secDevLabs (Github project)
-Repositorio con varios dockers para probar técnicas del OWASP Top 10  
-**Link** <a href="https://github.com/globocom/secDevLabs">secDevLabs</a>  
-
-### MyExpense
+## MyExpense (vulnhub)
+-------------------
+Técnicas:  
 * XSS
 * SQL Injection
 
@@ -18,6 +14,12 @@ Repositorio con varios dockers para probar técnicas del OWASP Top 10
   
 4º editar los 4 ficheros del directorio /opt. editando la URL, dejandola así: ```https://IPdelamaquina/```
 
-**Link** <a href="https://www.vulnhub.com/entry/myexpense-1,405/">MyExpense machine (Vulnhub)</a>  
+<a href="https://www.vulnhub.com/entry/myexpense-1,405/">MyExpense</a>  
 
+  
+## XXELab
+----------------
+Técnicas:  
+* XXE
 
+<a href="https://github.com/jbarone/xxelab">XXELab (Vulnhub)</a> 
