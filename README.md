@@ -19,12 +19,13 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 - [Informes]()
 
 ### OWASP Top 10
-- [SQL Injection]()
+- [SQL Injection](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/sqlinjection.md)
 
 ### Extra 
 - [Buffer Overflow]()  
 - [Metasploit]()
 - [SQLmap]()
+- [Burpsuite]()
 - [Pivoting]()
 - [Cheatsheet]() 
 
