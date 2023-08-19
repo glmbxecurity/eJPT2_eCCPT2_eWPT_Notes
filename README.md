@@ -18,6 +18,7 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 - [Explotación](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/explotacion.md)
 - [Post Explotacion](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/postexplotacion.md)
 - [Informes]()
+- [Writeups](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups.md)
 
 ### OWASP Top 10
 - [SQL Injection](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/sqlinjection.md)
@@ -29,7 +30,7 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 ### Descargas 
 
 ### Links de interés 
-  
+
 ### Extra 
 - [Buffer Overflow]()  
 - [Metasploit]()
