@@ -34,7 +34,7 @@ En formulario de creación de usuarios se ha detectado que se puede hacer XSS, c
 
 Ponemos a la escucha con netcat en kali:  
 ```
-nc -lvp 80
+python3 -m http.server 80
 ```
 
 Introducimos el siguiente codigo en el formulario, por ejemplo en el campo de apellido:
