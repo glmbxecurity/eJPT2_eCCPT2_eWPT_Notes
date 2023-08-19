@@ -22,6 +22,34 @@ Tenemos 3 tipos:
 
 * OUT OF BAND
 
+### Ejemplo de funcionamiento inyección SQL
+para realizar una inyeccion, debemos romper la query. por ejemplo en un formulario de usuario y contraseña en una web:  
+
+en email ponemos el email, y en contraseña una contraseña  
+
+la query "oficial" seria algo así:  
+
+```
+SELECT email,pass WHERE email = "emailintroducido" AND pass ="passintroducida";
+```
+para romper esa query, lo que hacemos es introducir una ' en el campo email o contraseña, seguida de la inyección y un comentario, quedaria así:  
+
+email: eddy@gmail.com' comando de la inyeccion-- -  
+
+pass: contraseña123  
+
+ejemplo tipico de inyección por ejemplo en un formulario web:  
+```
+email: eddy@gmail.com' OR 1=1-- -
+pass: contraseña123
+```
+y lo que haría realmente por detrás es:  
+```
+SELECT email,pass WHERE email = "eddy@gmail.com" OR 1=1 AND pass ="contraseña123";
+```
+con lo cual la lógica de base de datos, diría que si el email está contenido en la base de datos o 1 es igual a 1, cosa que siempre se cumple. iniciaremos sesión con el primer usuario de la tabla.
+
+
 ## IN BAND
 
 <a name="union"></a>
