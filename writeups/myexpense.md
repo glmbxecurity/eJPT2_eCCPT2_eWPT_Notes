@@ -5,6 +5,7 @@
 
 ### Antecedentes
 Tenemos un usuario llamado Samuel, que ha sido despedido de la empresa y le deben todavía 750€ de un viaje que hizo. Para cobrarlo, debemos hacer la solicitud a través de la web pero nuestro usuario ha sido eliminado o deshabilitado. Nuestra misión es intentar loguearnos y conseguir cobrar esa cantidad.  
+Your credentials were: samuel/fzghn4lw
 
 ### Accediendo a la web
 FOTO 1
