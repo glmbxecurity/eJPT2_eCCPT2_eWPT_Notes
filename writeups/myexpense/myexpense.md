@@ -8,7 +8,7 @@ Tenemos un usuario llamado Samuel, que ha sido despedido de la empresa y le debe
 Your credentials were: samuel/fzghn4lw
 
 ### Accediendo a la web
-FOTO 1
+<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups/myexpense/myexpense1.jpg?raw=true">
 Introducimos la url en el navegador y vamos al apartado para crear una cuenta. El botón de crear cuenta está bloqueado, así que inspeccionamos el codigo fuente y desbloqueamos el botón eliminando la línea **disabled**
 
 FOTOS 2 Y 3
