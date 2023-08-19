@@ -28,9 +28,30 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 - [OWASP top 10](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/maquinasowasp.md)
 
 ### Descargas 
+ #### Reconocimiento
+ * [Reco pasivo subdominios: CTFR](https://github.com/UnaPibaGeek/ctfr)
+ * [Gobuster](https://github.com/OJ/gobuster)
+ * [Wfuzz](https://github.com/xmendez/wfuzz)
+ * [Fuff](https://github.com/ffuf/ffuf)
+ * [Diccionario: seclists](https://github.com/danielmiessler/SecLists)
+ * [Whatweb](https://github.com/urbanadventurer/WhatWeb)
+ * [wappalyzer](https://addons.mozilla.org/es/firefox/addon/wappalyzer/)
+ * [Foxyproxy](https://addons.mozilla.org/es/firefox/addon/foxyproxy-basic/)
+ * [exiftool](https://github.com/exiftool/exiftool)
+ * [Joomscan](https://github.com/OWASP/joomscan)
+ * [Droopescan](https://github.com/SamJoan/droopescan)
+ * [Magescan](https://github.com/steverobbins/magescan)
+
 
 ### Links de interés 
-
+ * [GTFObins](https://github.com/exiftool/exiftool)
+ * [Hunter.io](https://hunter.io/search/) 
+ * [Phonebook](https://phonebook.cz/)
+ * [Pentest tools](https://pentest-tools.com)
+ * [ExploitDB](https://www.exploit-db.com/)
+ * [Vulhub (que no Vulnhub](https://github.com/vulhub/vulhub)
+ * [Pentestmonkey](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
+   
 ### Extra 
 - [Buffer Overflow]()  
 - [Metasploit]()
