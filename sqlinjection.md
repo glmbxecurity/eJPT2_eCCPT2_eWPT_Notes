@@ -10,7 +10,7 @@
   *   [Time](#tine)
 - #### OUT OF BAND
   *   [Out of band](#out)
-
+- <a href="https://deephacking.tech/sql-injection/">Mas info</a>
 <a name="como"></a>
 ## Tipos y funcionamiento
 Tenemos 3 tipos:
