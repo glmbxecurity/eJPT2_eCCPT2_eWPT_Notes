@@ -31,3 +31,11 @@ E inyectar el siguiente código:
 
 En la ventana del terminal donde tengamos netcat a la escucha, aparecerá la cookie de sesión cuando algún usuario entre a esa página a consultar los mensajes por ejemplo.  
 Para utilizarla:  Ctrl+Shift+I (inspeccionar) -->Application -->Cookies y cambiamos la cookie de sesión por la capturada, luego recargamos y ya estamos dentro.
+
+### Mandar a una dirección
+
+En una máquina fue útil cuando quisimos que un usuario logueado fuese a una dirección sin que supiese, que lo que hacía era activar una cuenta de usuario.
+```
+igual que el anterior, pero el codigo:
+<script>document.write('<img src="URL A DONDE QUIERAS DIRIGIR"/>');</script>
+```
