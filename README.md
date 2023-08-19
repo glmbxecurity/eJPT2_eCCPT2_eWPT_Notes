@@ -18,6 +18,9 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 - [Post Explotacion]()
 - [Informes]()
 
+### OWASP Top 10
+- [SQL Injection]()
+
 ### Extra 
 - [Buffer Overflow]()  
 - [Metasploit]()
