@@ -23,6 +23,9 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 - [SQL Injection](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/sqlinjection.md)
 - [XSS](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/xss.md)
 
+### Máquinas para practicar
+- [OWASP top 10](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/maquinasowasp.md)
+
 ### Descargas 
 
 ### Links de interés 
