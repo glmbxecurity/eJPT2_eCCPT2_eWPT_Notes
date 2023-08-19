@@ -236,3 +236,4 @@ Hay muchas maneras de buscar exploits, ya sea en google, github, etc. Pero si qu
 searchsploit <y nombre del servicio, version, path, etc>
 searachsploit -x <id> para ver codigo fuente del exploit
  ```
+<a href="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/tree/main">Menú Principal</a>
