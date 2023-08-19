@@ -1,4 +1,4 @@
-![image](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/assets/137443771/2c1910a6-f323-456e-9a50-d83308355f41)# MyExpense
+# MyExpense
 
 - Máquina de vulnhub, para practicar XSS y SQL Injection  
 - Descarga: <a href="https://www.vulnhub.com/entry/myexpense-1,405/">MyExpense</a>
