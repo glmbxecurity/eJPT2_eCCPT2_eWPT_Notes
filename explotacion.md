@@ -43,3 +43,4 @@ Credenciales por fuerza bruta abusando de xmlrpc
  ```
  wpscan --url <ip> -U <usuario encontrado> -P /ruta/al/rockyou.txt
  ```
+<a href="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/tree/main"> Menú Principal</a>
