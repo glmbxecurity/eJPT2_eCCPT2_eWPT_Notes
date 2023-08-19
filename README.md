@@ -21,6 +21,11 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 ### OWASP Top 10
 - [SQL Injection](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/sqlinjection.md)
 - [XSS](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/xss.md)
+
+### Descargas 
+
+### Links de interés 
+  
 ### Extra 
 - [Buffer Overflow]()  
 - [Metasploit]()
