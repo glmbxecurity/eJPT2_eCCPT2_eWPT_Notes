@@ -2,7 +2,7 @@
 Fase crucial para llevar a cabo con éxito nuestro test de penetración. Gracias al reconocimiento podremos identificar cosas como dispositivos en la red, servicios que tiene corriendo, versiones de S.O, versiones de servicios. etc.
 
 ### Indice
-* [Nmap](#nmap)
+  * [Nmap](#nmap)
   * [Evasion Firewall/IDS con Nmap](#evasion_nmap)
   * [Reconocimiento equipos](#recoeq)
   * [Descubrimiento emails](#recoem)
