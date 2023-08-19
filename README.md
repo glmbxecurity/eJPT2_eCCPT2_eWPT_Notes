@@ -15,7 +15,7 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 ### Contenido principal  
 - [Reconocimiento](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco.md)
 - [Explotación](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/explotacion.md)
-- [Post Explotacion]()
+- [Post Explotacion](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/postexplotacion.md)
 - [Informes]()
 
 ### OWASP Top 10
