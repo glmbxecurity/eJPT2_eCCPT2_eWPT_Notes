@@ -59,3 +59,13 @@ Para ello volvemos a crear otro usuario y en el apellido, por ejemplo. Metemos e
 esperamos un poco y voilá! se activó!
 <img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups/myexpense/myexpense10.jpg?raw=true">
 
+### Enviando la solicutid de pago
+Una vez en el perfil de Samuel, aceptamos el envío de la solicitud de los 750€. Parece que el manager Manon Riviere debe aprobar esto. para ello deberemos robarle la sesión.  
+Parece que tienen un chat en común, así que aprovecharemos el textbox para hacer un robo de sesión con cookies.  
+<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups/myexpense/myexpense11.jpg?raw=true">
+<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups/myexpense/myexpense12.jpg?raw=true">
+
+Una vez en el perfil, aceptamos la solicitud.
+<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups/myexpense/myexpense13.jpg?raw=true">
+
+
