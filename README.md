@@ -42,6 +42,8 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
  * [Joomscan](https://github.com/OWASP/joomscan)
  * [Droopescan](https://github.com/SamJoan/droopescan)
  * [Magescan](https://github.com/steverobbins/magescan)
+ * [Linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
+   
 
 
 ### Links de interés 
@@ -50,8 +52,9 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
  * [Phonebook](https://phonebook.cz/)
  * [Pentest tools](https://pentest-tools.com)
  * [ExploitDB](https://www.exploit-db.com/)
- * [Vulhub (que no Vulnhub](https://github.com/vulhub/vulhub)
+ * [Vulhub](https://github.com/vulhub/vulhub)
  * [Pentestmonkey](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
+ * [Hashes (Crack hash)](https://hashes.com/en/decrypt/hash)
    
 ### Extra 
 - [Buffer Overflow]()  
