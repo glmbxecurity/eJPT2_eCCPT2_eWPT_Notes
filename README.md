@@ -25,10 +25,10 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 
 
 ### Explotación OWASP Top 10 y Vulnerabilidades web
-[Ir al post](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10.md)
+[Ver técnicas](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10.md)
 
 ### Máquinas para practicar
-- [OWASP top 10](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/maquinasowasp.md)
+[OWASP top 10](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/maquinasowasp.md)
 
 ### Descargas 
 [Ir a descargas](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/descargas.md)
