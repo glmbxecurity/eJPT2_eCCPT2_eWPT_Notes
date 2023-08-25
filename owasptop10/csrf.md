@@ -1,5 +1,5 @@
   # CSRF
-  Es una vulnerabilidad en la que un atacante consigue que un usuario legítimo de un sitio web ejecute una acción sin su conocimiento/consentimiento.
+Es una vulnerabilidad en la que un atacante consigue que un usuario legítimo de un sitio web ejecute una acción sin su conocimiento/consentimiento.
 
 ## Ejemplo
 
