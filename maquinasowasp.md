@@ -23,3 +23,21 @@ Técnicas:
 * XXE
 
 <a href="https://github.com/jbarone/xxelab">XXELab (Vulnhub)</a> 
+
+## RFI
+---------------
+En este caso tenemos un docker, al que se le debe instalar además el plugin Gwolle
+[DVWP](https://github.com/vavkamil/dvwp) (Docker)
+[Gwolle PLugin for WP](https://es.wordpress.org/plugins/gwolle-gb/)
+
+# CSRF
+-------------
+Tenemos una especie de red social con varios usuarios, en la que podremos tratar de explotar el CSRF
+
+[Web_CSRF_Elgg](https://seedsecuritylabs.org/Labs_20.04/Files/Web_CSRF_Elgg/Labsetup.zip)
+
+nota: 
+```
+Si a la hora de hacer el ‘**docker-compose up -d**‘, os salta un error de tipo: “**networks.net-10.9.0.0 value Additional properties are not allowed (‘name’ was unexpected)**“, lo que tenéis que hacer es en el archivo ‘**docker-compose.yml**‘, borrar la línea número 41, la que pone “**name: net-10.9.0.0**“.
+```
+

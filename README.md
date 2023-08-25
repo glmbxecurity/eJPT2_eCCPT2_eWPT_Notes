@@ -13,6 +13,7 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 <img align="center" src="https://raw.githubusercontent.com/glmbxecurity/assets/main/eJPT.png" />  
 
 ### Contenido principal  
+- [Requisitios Previos](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reqprev.md)
 - [Reconocimiento](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco.md)
 - [Enumeración](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/enum.md)
 - [Explotación](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/explotacion.md)
@@ -24,7 +25,7 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 
 
 ### Explotación OWASP Top 10 y Vulnerabilidades web
-- [Ir al post](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10.md)
+[Ir al post](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10.md)
 
 ### Máquinas para practicar
 - [OWASP top 10](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/maquinasowasp.md)
@@ -45,17 +46,7 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
  * [Excalidraw (Whiteboard para explicar conceptos](https://excalidraw.com/)
    
 ### Extra 
-  
 - [Metasploit]()
 - [SQLmap]()
 - [Burpsuite]()
 
-#### Requisitos previos
-
-Como he comentado, esto no es una guía desde 0, ni tampoco un curso y hay ciertos requisitos indispensables que deberías tener, entre ellos: 
-- Conocimientos en Linux (Comandos básicos para moverse por el S.O, grep, cat, chown... Ya me entiendes)
-- Conocimientos en Redes (Protocolos, subneting, conceptos básicos)
-- Conocimientos en Windows (Moverse por el S.O, y no estaría de mas conocer las tipicas consolas: lusrmgr.msc, gpedit.msc, regedit.msc ... )
-- Scripting (al menos), y programación (deseable). Por lo menos saber que es la POO y como funciona, aunque no entiendas 100% el código)
-- Informática en general, siempre es bien tener conocimientos básicos generales acerca de todo, ya que te van a ayudar SIEMPRE
-- Saber buscar en Google, puede parecer una tontería pero no todos saben BUSCAR bien, y es algo IMPRESCINDIBLE
