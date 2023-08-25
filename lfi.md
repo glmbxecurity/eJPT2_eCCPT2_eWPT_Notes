@@ -1,5 +1,5 @@
 # Local File Inclusion
-
+Es una vulnerabilidad que nos permite visualizar ficheros de la máquina victima a través del navegador web.
 Cuando tenemos la opción de vulnerar un LFI  (ejemplo lo pongo después), nos podemos encontrar con restricciones.
 
 ## Sin restricción
@@ -50,14 +50,14 @@ Para ello jugaremos con un wrapper que nos convierte la petición al fichero php
 Si nos fijamos ```page=courses ``` hace referencia a una página. es común que el código haga una concatenación con la extensión php. de manera que cuando pone page=courses, en realidad se está dirigiendo al fichero courses.php
 
 
-![[lfi2.png]] 
+<img src="https://raw.githubusercontent.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/main/images/lfi2.png" />
 
 Teniendo esto claro, podemos jugar con el wrapper ```
 ```
 php://filter/convert.base64-encode/resource=
 ```
 
-![[lfi1.png]] 
+<img src="https://raw.githubusercontent.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/main/images/lfi1.png" />
 
 Así estamos accediendo al fichero index.php para ver su contenido. Algo que puede ser útil para visualizar por ejemplo un fichero php de conexión a base de datos, que debe incluir las credenciales de acceso.
 
