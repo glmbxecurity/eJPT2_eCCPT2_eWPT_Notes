@@ -17,40 +17,21 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 - [Enumeración](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/enum.md)
 - [Explotación](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/explotacion.md)
 - [Post Explotacion](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/postexplotacion.md)
+- [Pivoting]()
+- [Buffer Overflow]()
 - [Informes]()
 - [Writeups](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups.md)
 
-### OWASP Top 10
-- [SQL Injection](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/sqlinjection.md)
-- [XSS](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/xss.md)
-- [XXE](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/xxe.md)
-- [LFI](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/lfi.md)
-- [LFI RCE](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/lfirce.md)
-- [Log poisoning Apache](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/logapache.md)
-- [Log poisoning ssh](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/logssh.md)
-- [RFI](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/rfi.md)
-- [CSRF](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/csrf.md)
+
+### Explotación OWASP Top 10 y Vulnerabilidades web
+- [Ir al post](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10.md)
 
 ### Máquinas para practicar
 - [OWASP top 10](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/maquinasowasp.md)
 
 ### Descargas 
- #### Reconocimiento
- * [Reco pasivo subdominios: CTFR](https://github.com/UnaPibaGeek/ctfr)
- * [Gobuster](https://github.com/OJ/gobuster)
- * [Wfuzz](https://github.com/xmendez/wfuzz)
- * [Fuff](https://github.com/ffuf/ffuf)
- * [Diccionario: seclists](https://github.com/danielmiessler/SecLists)
- * [Whatweb](https://github.com/urbanadventurer/WhatWeb)
- * [wappalyzer](https://addons.mozilla.org/es/firefox/addon/wappalyzer/)
- * [Foxyproxy](https://addons.mozilla.org/es/firefox/addon/foxyproxy-basic/)
- * [exiftool](https://github.com/exiftool/exiftool)
- * [Joomscan](https://github.com/OWASP/joomscan)
- * [Droopescan](https://github.com/SamJoan/droopescan)
- * [Magescan](https://github.com/steverobbins/magescan)
- * [Linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
+[Ir a descargas](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/descargas.md)
    
-
 
 ### Links de interés 
  * [GTFObins](https://github.com/exiftool/exiftool)
@@ -64,12 +45,10 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
  * [Excalidraw (Whiteboard para explicar conceptos](https://excalidraw.com/)
    
 ### Extra 
-- [Buffer Overflow]()  
+  
 - [Metasploit]()
 - [SQLmap]()
 - [Burpsuite]()
-- [Pivoting]()
-- [Cheatsheet]() 
 
 #### Requisitos previos
 
