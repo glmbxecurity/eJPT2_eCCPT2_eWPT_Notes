@@ -17,6 +17,7 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 - [Reconocimiento](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco.md)
 - [Enumeración](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/enum.md)
 - [Explotación](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/explotacion.md)
+- [Explotación Web](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10.md)
 - [Post Explotacion](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/postexplotacion.md)
 - [Pivoting]()
 - [Buffer Overflow]()
@@ -24,8 +25,7 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 - [Writeups](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups.md)
 
 
-### Explotación OWASP Top 10 y Vulnerabilidades web
-[Ver técnicas](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10.md)
+
 
 ### Máquinas para practicar
 [OWASP top 10](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/maquinasowasp.md)
