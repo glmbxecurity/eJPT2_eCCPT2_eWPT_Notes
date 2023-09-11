@@ -148,7 +148,12 @@ fuff -t 200 -w <diccionario> -u https://xiaomi.com/FUZZ -v
 fuff -t 200 -w <diccionario> -u https://xiaomi.com/FUZZ --mc 200 -v
  con esto le decimos que el codigo de estado sea 200 y en modo verbose
  ```
+ Dirsearch  
+ Tiene su propio diccionario y basta con ejecutar el siguiente comando:  
  
+ ```
+dirsearch -u <URL>
+ ```
  * HTTPS: mirar certificado SSL (a veces hay cositas en Common Name)  
  
 <a name="recowebdork"></a>
