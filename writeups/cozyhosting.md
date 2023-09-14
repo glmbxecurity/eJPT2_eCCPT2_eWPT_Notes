@@ -162,6 +162,6 @@ lo haremos sin complicaciones.
 
 
 Introducimos el comando y capturamos la **flag** de **root**  
-32
+<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/images/cozyhosting/cozy33.png?raw=true"> 
 
 
