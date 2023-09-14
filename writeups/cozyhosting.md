@@ -151,14 +151,14 @@ pertenece a **josh**. Entramos y obtenemos la **user flag**.
 
 Con un simple **sudo –l** vemos que permisos tiene el usuario **josh** en cuanto a la ejecución de comandos. Y descubrimos
 que tiene permisos de ejecutar ssh como root.  
-<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/images/cozyhosting/cozy29.png?raw=true"> 
+<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/images/cozyhosting/cozy30.png?raw=true"> 
 
 Además buscando binarios con permisos **SUID** encontramos lo siguiente:  
-<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/images/cozyhosting/cozy30.png?raw=true"> 
+<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/images/cozyhosting/cozy31.png?raw=true"> 
 
 Asi que tan fácil como buscar en **GTFOBins** un binario que nos permita escalar privilegios. En este caso con el de **ssh**
 lo haremos sin complicaciones.  
-<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/images/cozyhosting/cozy31.png?raw=true"> 
+<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/images/cozyhosting/cozy32.png?raw=true"> 
 
 
 Introducimos el comando y capturamos la **flag** de **root**  
