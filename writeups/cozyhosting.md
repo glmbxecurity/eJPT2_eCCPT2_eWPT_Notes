@@ -1,3 +1,4 @@
+<img src="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/images/cozyhosting/cozy1.png?raw=true">
 # Antecedentes
 
 Cozyhosting es una máquina Linux, que contiene un portal web, servicio SSH y postresql. En esta máquina se
