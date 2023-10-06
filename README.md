@@ -49,4 +49,5 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 - [Metasploit]()
 - [SQLmap]()
 - [Burpsuite]()
+- [Wireless](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/wireless.md)
 
