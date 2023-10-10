@@ -13,4 +13,4 @@
 - [HTTP SSL](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/httpssl.md)
 - [Wordpress Explotation](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/wordpress.md)
 - [Command injection](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/commandinj.md)
-- [Password login Bruteforce](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/pwloginbrute.md)
+- [Authentication Bypass](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/pwloginbrute.md)
