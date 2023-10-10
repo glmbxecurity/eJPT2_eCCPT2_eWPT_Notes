@@ -9,7 +9,8 @@ De la misma manera, se debe interceptar la peticion por burpsuite y analizar que
 
 #### Ejemplo 1 (facil y poco probable)
 Si para acceder al panel de admin, nos encontramos que el código tiene esto:   
-``` if( url.substr(0,6) === '/admin') {
+```
+ if( url.substr(0,6) === '/admin') {
     # Code to check user is an admin
 } else {
     # View Page
