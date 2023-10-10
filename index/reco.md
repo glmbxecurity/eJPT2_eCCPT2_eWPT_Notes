@@ -6,9 +6,12 @@ Fase crucial para llevar a cabo con éxito nuestro test de penetración. Gracias
 * [Reconocimiento equipos](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/recoeq.md)
 * [Descubrimiento emails](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/recoem.md)
 * [Reconocimiento subdominios](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/recosub.md)
-* [Reconocimiento web (FUZZING)](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/recoweb.md)
-* [Reconocimiento web (DORKS)](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/recodorks.md)
 * [Reconocimiento SMB](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/recosmb.md)
 * [Reconocimiento CMS](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/recocms.md)
 * [Búsqueda con searchsploit](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/searchsploit.md)
 * [Manual Discovery](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/manualdiscovery.md)
+
+  
+* [FUZZING Directorios web](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/recoweb.md)
+* [Reconocimiento web (DORKS)](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/recodorks.md)
+* [Reconocimiento Usuarios web](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/recousersweb.md)
