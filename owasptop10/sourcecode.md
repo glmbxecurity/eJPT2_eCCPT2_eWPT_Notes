@@ -7,4 +7,6 @@ En el código fuente se pueden investigar:
 
 ### Contenido bloqueado por CSS
 
-Inspeccionanddo el codigo fuente, si nos damos con el caso de contenido bloqueado.
+Inspeccionanddo el codigo fuente, si nos damos con el caso de contenido bloqueado. Podríamos cambiar "block" por "none"
+<img src="https://raw.githubusercontent.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/main/images/cssblock.jpg"/> 
+
