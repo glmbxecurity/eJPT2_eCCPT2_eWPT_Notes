@@ -15,7 +15,6 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 ### Contenido principal  
 - [Requisitios Previos](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reqprev.md)
 - [Reconocimiento](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco.md)
-- [Enumeración](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/enum.md)
 - [Explotación](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/explotacion.md)
 - [Explotación Web](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10.md)
 - [Post Explotacion](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/postexplotacion.md)
