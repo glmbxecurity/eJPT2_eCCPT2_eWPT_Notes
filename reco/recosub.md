@@ -4,6 +4,9 @@ Con phonebook.cz también se pueden reconocer subdominios de empresas expuestas,
 
 Con crt.sh  
 [CRT.SH](https://crt.sh/)
+
+### Sublist3r
+```./sublist3r.py -d acmeitsupport.thm```
  
  ### Reconocimientos activos
  #### GObuster
