@@ -18,3 +18,6 @@ Con crt.sh
  ```
  wfuzz -c -t 20 --hc=403 -w <diccionario> -H "Host: FUZZ.google.com" http://google.com
  ```
+
+## DNSrecon
+```dnsrecon -t brt -d acmeitsupport.thm```
