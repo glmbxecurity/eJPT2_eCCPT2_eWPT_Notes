@@ -1,7 +1,7 @@
 ## Explotación
 ### Indice
-- [FTP (Hydra Fuerza bruta)](#exftp)
-- [SSH (Hydra Fuerza bruta)](#exssh)
+- [FTP (Fuerza bruta)](#exftp)
+- [SSH (Fuerza bruta)](#exssh)
 - [HTTP SSL](#exssl)
 - [Wordpress Credentials (XMRPC abusing)](#exwp)
 - [Reverse Shell](#shell)
