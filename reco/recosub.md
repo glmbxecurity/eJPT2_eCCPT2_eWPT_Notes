@@ -4,7 +4,7 @@ Con phonebook.cz también se pueden reconocer subdominios de empresas expuestas,
 <img src="https://raw.githubusercontent.com/glmbxecurity/assets/main/recosub1.png"/>
 
 Con crt.sh  
-<a href="https://crt.sh/" /a>
+[CRT.SH](https://crt.sh/)
  
  ### Reconocimientos activos
  #### GObuster
