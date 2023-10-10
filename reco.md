@@ -7,7 +7,7 @@ Fase crucial para llevar a cabo con éxito nuestro test de penetración. Gracias
 * [Reconocimiento equipos](#recoeq)
 * [Descubrimiento emails](#recoem)
 * [Reconocimiento subdominios](#recosub)
-* [Reconocimiento web](#recoweb)
+* [Reconocimiento web (FUZZING)](#recoweb)
 * [Reconocimiento web (DORKS)](#recowebdork)
 * [Reconocimiento SMB](#recosmb)
 * [Reconocimiento Wordpress](#recowp)
