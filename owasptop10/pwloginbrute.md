@@ -25,6 +25,7 @@ En el campo de reseteo de contraseña, es posible que nos pida solamente el emai
 ![imagen](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/assets/137443771/1ac1ed8f-f8a2-46cc-9f90-5690137ce5f5)
 
 Al enviar la petición, nos pide el usuario asociado, y al interceptar vemos lo siguiente:  Pasa a ser una petición por POST, que podemos intentar trampear el email en la petición.  
+
 ![imagen](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/assets/137443771/e71ae211-1701-4a51-b9a3-acec74b28b36)
 ![imagen](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/assets/137443771/c7b89486-1df7-4076-bf35-5ee97404d7c3)
 
