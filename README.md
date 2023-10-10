@@ -13,24 +13,24 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 <img align="center" src="https://raw.githubusercontent.com/glmbxecurity/assets/main/eJPT.png" />  
 
 ### Contenido principal  
-- [Requisitios Previos](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reqprev.md)
-- [Reconocimiento](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco.md)
-- [Explotación](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/explotacion.md)
-- [Explotación Web](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10.md)
-- [Post Explotacion](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/postexplotacion.md)
+- [Requisitios Previos](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/index/reqprev.md)
+- [Reconocimiento](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/index/reco.md)
+- [Explotación](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/index/explotacion.md)
+- [Explotación Web](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/index/owasptop10.md)
+- [Post Explotacion](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/index/postexplotacion.md)
 - [Pivoting]()
 - [Buffer Overflow]()
 - [Informes]()
-- [Writeups](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/writeups.md)
+- [Writeups](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/index/writeups.md)
 
 
 
 
 ### Máquinas para practicar
-[OWASP top 10](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/maquinasowasp.md)
+[OWASP top 10](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/index/maquinasowasp.md)
 
 ### Descargas 
-[Ir a descargas](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/descargas.md)
+[Ir a descargas](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/index/descargas.md)
    
 
 ### Links de interés 
@@ -48,5 +48,5 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 - [Metasploit]()
 - [SQLmap]()
 - [Burpsuite]()
-- [Wireless](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/wireless.md)
+- [Wireless](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/index/wireless.md)
 
