@@ -11,7 +11,7 @@ Fase crucial para llevar a cabo con éxito nuestro test de penetración. Gracias
 * [Búsqueda con searchsploit](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/searchsploit.md)
 * [Manual Discovery](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/manualdiscovery.md)
 
-  
+  -------------------
 * [FUZZING Directorios web](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/recoweb.md)
 * [Reconocimiento web (DORKS)](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/recodorks.md)
 * [Reconocimiento Usuarios web](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/reco/recousersweb.md)
