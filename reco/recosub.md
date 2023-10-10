@@ -1,7 +1,6 @@
 ## Reconocimiento subdominios
  ### Reconocimientos pasivos
-Con phonebook.cz también se pueden reconocer subdominios de empresas expuestas, pero también podemos usar una herramienta por consola, llamada **CTFR**
-<img src="https://raw.githubusercontent.com/glmbxecurity/assets/main/recosub1.png"/>
+Con phonebook.cz también se pueden reconocer subdominios de empresas expuestas, pero también podemos usar una herramienta por consola, llamada **CTFR**  
 
 Con crt.sh  
 [CRT.SH](https://crt.sh/)
