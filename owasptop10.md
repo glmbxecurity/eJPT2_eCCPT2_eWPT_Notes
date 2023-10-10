@@ -10,3 +10,6 @@
 - [Log poisoning ssh](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/logssh.md)
 - [RFI](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/rfi.md)
 - [CSRF](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/csrf.md)
+- [HTTP SSL](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/httpssl.md)
+- [Wordpress Explotation](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/wordpress.md)
+- [Command injection](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/commandinj.md)
