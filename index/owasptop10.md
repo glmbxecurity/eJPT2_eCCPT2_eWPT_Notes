@@ -15,3 +15,4 @@
 - [Command injection](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/commandinj.md)
 - [Authentication Bypass](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/pwloginbrute.md)
 - [IDOR](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/idor.md)
+- [SSRF](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/owasptop10/ssrf.md)
