@@ -31,7 +31,7 @@ Incluso si tenemos restringido, que los ultimos 6 caracteres conicidan con 'pass
 ```
 ....//....//....//....//etc/./././passwd/.
 ```
-## Con forzado de extensiones
+## Con forzado de extensiones (Parcheado a partir de PHP 5.3.4)
 si el desarrollador concatena el $filename con por ejemplo .php, el fichero que buscaríamos sería /etc/passwd.php, cosa que no existe. para ello se puede para algunas versiones de PHP aplicar un null byte, con '%00' o '\0'
 
 ```
