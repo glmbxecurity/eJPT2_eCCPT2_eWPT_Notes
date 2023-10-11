@@ -1,6 +1,6 @@
 # Local File Inclusion
 Es una vulnerabilidad que nos permite visualizar ficheros de la máquina victima a través del navegador web.
-Cuando tenemos la opción de vulnerar un LFI  (ejemplo lo pongo después), nos podemos encontrar con restricciones.
+Cuando tenemos la opción de vulnerar un LFI  (ejemplo lo pongo después), nos podemos encontrar con restricciones. PHP, que utiliza funciones como ```include```, ```require```, ```include_once``` y ```require_once```, a menudo contribuye a que las aplicaciones web sean vulnerables.
 
 ## Sin restricción
 Basta con poner el nombre del fichero que queremos leer
