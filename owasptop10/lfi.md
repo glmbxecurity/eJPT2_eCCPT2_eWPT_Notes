@@ -43,6 +43,13 @@ si el desarrollador concatena el $filename con por ejemplo .php, el fichero que 
 
 ```THM-profile/../../../../../etc/passwd ```
 
+## Cambiando el método a POST
+
+A veces con GET no funciona, así que podemos pasar la petición por burpsuite, cambiar el método a POST y probar.  
+![imagen](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/assets/137443771/ff849361-b52c-416f-b747-39ea99c451b5)  
+![imagen](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/assets/137443771/191b7442-3d39-4ee0-bbf8-f68696748593)
+
+
 
 # Jugando con wrappers
 
