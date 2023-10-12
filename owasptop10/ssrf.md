@@ -16,7 +16,7 @@ En esta ocasion tenemos un filtro que no nos permite acceder a ``` localhost ```
 
 Awui tenemos un filtro que nos limita a utilizar si o si la direccion ```stock.webapi..``` . Si se modifica la URL como en los ejemplos anteriores nos da error. con lo que al fijarnos en la direccion del método ``` GET ``` vemos que tenemos lo siguiente:  
 ![image](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/assets/137443771/d173370d-6fc7-44bf-8e17-e5f96d70c56f)  
-Así que podemos probar a incluir la variable path al final de la api para dirigirnos a donde queremos ir (y estariamos cumpliendo la restriccion de que la consulta debe ser a stock,webapi... 
+Así que podemos probar a incluir la variable path al final de la api para dirigirnos a donde queremos ir (y estariamos cumpliendo la restriccion de que la consulta debe ser a stock,webapi...   
 ![image](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/assets/137443771/d94d5b4d-e748-4c55-a2e3-f796146aeefb)  
 
 **IMPORTANTE** Luego URLencodear la request, sino el ``` & ``` dará conflicto. 
