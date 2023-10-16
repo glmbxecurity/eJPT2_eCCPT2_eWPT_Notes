@@ -13,3 +13,4 @@
  * [Droopescan](https://github.com/SamJoan/droopescan)
  * [Magescan](https://github.com/steverobbins/magescan)
  * [Linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
+ * [XSS Hunter](https://github.com/mandatoryprogrammer/xsshunter-express)
