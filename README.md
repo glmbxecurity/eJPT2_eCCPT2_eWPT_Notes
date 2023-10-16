@@ -30,7 +30,7 @@ un poco de repaso. No obstante, es imprescindible practicar muchisimo, y probar 
 [OWASP top 10](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/index/maquinasowasp.md)
 
 ### Descargas 
-[Ir a descargas](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/index/descargas.md)
+[Ir a descargas](https://github.com/glmbxecurity/eJPT2_eCCPT2_eWPT_Notes/blob/main/index/descargas.md)
    
 
 ### Links de interés 
